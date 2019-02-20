@@ -54,21 +54,21 @@ All snippets are in [`UltiSnips/javascript.snippets`](UltiSnips/javascript.snipp
 ### ES2015+
 | Trigger | Produces |
 | ------: | -------- |
-| c | const |
-| l | let |
-| i | import |
-| e | export |
-| r | return |
-| map | method with function |
-| filter | method with function |
-| forEach | method with function |
-| reduce | method with function |
-| => | arrow function |
-| c=> | const function |
-| cex | const function with export |
-| forof | for .. of .. |
-| class | class |
-| cl | console.log |
+| `c` | const |
+| `l` | let |
+| `i` | import |
+| `e` | export |
+| `r` | return |
+| `map` | method with function |
+| `filter` | method with function |
+| `forEach` | method with function |
+| `reduce` | method with function |
+| `=>` | arrow function |
+| `c=>` | const function |
+| `cex` | const function with export |
+| `forof` | for .. of .. |
+| `class` | class |
+| `cl` | console.log |
 
 
 ### React
@@ -83,3 +83,5 @@ All snippets are in [`UltiSnips/javascript.snippets`](UltiSnips/javascript.snipp
 Most of the snippets were ripped off, or heavily inspired by [Emmanuel
 Pillande's](https://github.com/epilande) [Vim React Snippets](https://github.com/epilande/vim-react-snippets) and [Vim ES2015 Snippets](https://github.com/epilande/vim-es2015-snippets)
 
+## License
+[MIT/X11](https://en.wikipedia.org/wiki/MIT_License)
