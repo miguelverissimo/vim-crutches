@@ -84,6 +84,7 @@ All snippets are in [`UltiSnips/javascript.snippets`](UltiSnips/javascript.snipp
 | ------: | -------- |
 | `ris`   | React `import styled from 'styled-components';` |
 | `rsd`   | React `const <foo> = styled.div` |
+| `rppt`  | React `${props => props.theme.$0}` |
 
 ## Credits
 
