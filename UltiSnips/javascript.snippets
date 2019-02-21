@@ -84,7 +84,6 @@ class ${1:`!v expand('%:t:r')`} extends Component {
 export default $1;
 endsnippet
 
-
 snippet rfc "React Functional Component" b
 const ${1:`!v expand('%:t:r')`} = (${2:props}) => (
 	<${3:div}>
@@ -95,3 +94,14 @@ const ${1:`!v expand('%:t:r')`} = (${2:props}) => (
 export default $1;
 endsnippet
 
+
+# React, styled components
+snippet ris "React import styled-components" bs
+import styled from 'styled-components';
+endsnippet
+
+snippet rsd "React Styled div" b
+const $1 = styled.div \`
+	$0
+\`;
+endsnippet

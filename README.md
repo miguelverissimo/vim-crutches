@@ -78,6 +78,13 @@ All snippets are in [`UltiSnips/javascript.snippets`](UltiSnips/javascript.snipp
 | `rcc`   | React **Class** Component |
 | `rfc`   | React **Functional** Component |
 
+### Styled Components library
+
+| Trigger | Produces |
+| ------: | -------- |
+| `ris`   | React `import styled from 'styled-components';` |
+| `rsd`   | React `const <foo> = styled.div` |
+
 ## Credits
 
 Most of the snippets were ripped off, or heavily inspired by [Emmanuel
