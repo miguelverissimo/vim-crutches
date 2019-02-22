@@ -54,21 +54,22 @@ All snippets are in [`UltiSnips/javascript.snippets`](UltiSnips/javascript.snipp
 ### ES2015+
 | Trigger | Produces |
 | ------: | -------- |
-| `c` | const |
-| `l` | let |
-| `i` | import |
-| `e` | export |
-| `r` | return |
-| `map` | method with function |
-| `filter` | method with function |
-| `forEach` | method with function |
-| `reduce` | method with function |
-| `=>` | arrow function |
-| `c=>` | const function |
-| `cex` | const function with export |
-| `forof` | for .. of .. |
-| `class` | class |
-| `cl` | console.log |
+| `c | const` | `const` |
+| `l | let` | `let` |
+| `i | im | imp | import` | `import` |
+| `e | ex | exp | export` | `export` |
+| `r` | `return` |
+| `.map` | method with function |
+| `.filter` | method with function |
+| `.forEach` | method with function |
+| `.reduce` | method with function |
+| `=>` | `() => {}` |
+| `c=>` | `const ... = () => {}` |
+| `cex` | `const ... = () => {}; export default ...` |
+| `forof` | `for (let ... of ...) {}` |
+| `cl | class` | `class ...` |
+| `edc` | `export default class ... extends ...` |
+| `cl` | `console.log(...)` |
 
 
 ### React

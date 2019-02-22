@@ -25,25 +25,25 @@ snippet "\.(map|filter|forEach|reduce)" "Array method with function" r
 });
 endsnippet
 
-snippet => "Arrow function"
+snippet => "() => {}"
 (${1:args}) => {
 	return $3;
 }${2:;}
 endsnippet
 
-snippet c=> "Const Function" bA
+snippet c=> "const ... => () {}" bA
 const ${1:name} = (${2:args}) => {
 	return $4;
 }${3:;}
 endsnippet
 
-snippet forof "For of loop" b
+snippet forof "for ... of ..." b
 for (let ${1:value} of ${2:iterable}) {
 	${3:$1}
 }
 endsnippet
 
-snippet class "Class"
+snippet cl(ass)? "class ..."
 class ${1:Name} {
 	constructor(${2:arg}) {
 		$3
@@ -52,11 +52,20 @@ class ${1:Name} {
 }
 endsnippet
 
+snippet edc "export default class ... extends ..."
+export default class ${1:Name} ${2:extends} {
+	constructor(${3:arg}) {
+		$4
+	}
+	$5
+}
+endsnippet
+
 snippet cl "console.log(...)"
 console.log('${2:$1: }', ${1});
 endsnippet
 
-snippet cex "Const function with export" b
+snippet cex "const ... = () => {}; export default ..." b
 const ${1:`!v expand('%:t:r')`} = (${2:props}) => (
 	<${3:div}>
 		$0
