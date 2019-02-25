@@ -54,9 +54,10 @@ All snippets are in [`UltiSnips/javascript.snippets`](UltiSnips/javascript.snipp
 ### Javascript
 | Trigger | Produces |
 | ------: | -------- |
-| `cr` | `const {...} = require('...');` |
-| `cn` | `const ... = new ...({});` |
-| `me` | `module.exports = ...;` |
+| `cr`  | `const {...} = require('...');` |
+| `cn`  | `const ... = new ...({});` |
+| `me`  | `module.exports = ...;` |
+| `fun(ction)?` | `function ...(...){...};` |
 
 ### ES2015+
 | Trigger | Produces |
